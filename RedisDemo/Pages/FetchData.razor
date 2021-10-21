@@ -1,7 +1,9 @@
 ﻿@page "/fetchdata"
 
 @using RedisDemo.Data
+@using RedisDemo.Extensions
 @inject WeatherForecastService ForecastService
+@inject IDistributedCache cache
 
 <h1>Weather forecast</h1>
 
